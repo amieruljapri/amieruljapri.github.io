@@ -27,16 +27,20 @@
                                {{ post.description }}
                               {% endif %}
                               {% if post.os %}
-                              <p></br><strong>OS:</strong>
+                              <p></br>OS:
                               {{ post.os }}</p>
                               {% endif %}
                               {% if post.technology %}
                                <p></br>Technology:</p>
+                               {% for technology in post.technology %}
+                               {{ technology }}
                                {% endfor %}
                               {% endif %}
                               {% if post.language %}
                                <p></br>Language:</p>
-                               {{ post.language }}
+                               {% for language in post.language %}
+                               {{ language }}
+                               {% endfor %}
                               {% endif %}
                              </div>
                             <ul class="list-inline item-details">
