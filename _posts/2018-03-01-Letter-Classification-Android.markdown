@@ -2,7 +2,7 @@
 layout: default
 modal-id: 1
 date: 2018-03-01
-img: cabin.png
+img: letter-classification.png
 alt: image-alt
 video:  https://www.youtube.com/embed/qDvKVxFe7VA
 project-date: March 2018
