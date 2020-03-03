@@ -27,8 +27,10 @@
                                {{ post.description }}
                               {% endif %}
                               {% if post.os %}
-                              <p></br>OS:
-                              {{ post.os }}</p>
+                              <p></br>OS:</p>
+                              {% for os in post.os %}
+                              <ul><li>{{ post.os }}</li></ul>
+                              {% endfor %}
                               {% endif %}
                               {% if post.technology %}
                                <p></br>Technology:
