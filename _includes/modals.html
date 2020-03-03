@@ -27,13 +27,11 @@
                                {{ post.description }}
                               {% endif %}
                               {% if post.os %}
-                               <p></br>OS:</p>
-                               {{ post.os }}
+                              <p></br><strong>OS:</strong>
+                              {{ post.os }}</p>
                               {% endif %}
                               {% if post.technology %}
                                <p></br>Technology:</p>
-                               {% for role in post.role %}
-                               <ul><li>{{ role }}</li></ul>
                                {% endfor %}
                               {% endif %}
                               {% if post.language %}
