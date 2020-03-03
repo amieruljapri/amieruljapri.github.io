@@ -33,13 +33,13 @@
                               {% if post.technology %}
                                <p></br>Technology:
                                {% for technology in post.technology %}
-                               {{ technology }}
+                               <ul><li>{{ technology }}</li></ul>
                                {% endfor %}</p>
                               {% endif %}
                               {% if post.language %}
                                <p></br>Language:
                                {% for language in post.language %}
-                               {{ language }}
+                               <ul><li>{{ language }}</li></ul>
                                {% endfor %}</p>
                               {% endif %}
                              </div>
