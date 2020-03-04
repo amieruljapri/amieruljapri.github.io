@@ -6,6 +6,10 @@ img: drone-iot.png
 alt: image-alt
 project-date: January 2019
 category: iot
-description: Drone Object Detection
+description: Utilise open source library to controlling drones via ssh. Perform Computer Vision Analysis including object detection, edge detection, surveillance and motion detection.</br>Challenge including short limit range of wifi to give instruction to drones.
+
+os: [Windows]
+technology: [Computer Vision,Deep Learning]
+language: [Python]
 
 ---
